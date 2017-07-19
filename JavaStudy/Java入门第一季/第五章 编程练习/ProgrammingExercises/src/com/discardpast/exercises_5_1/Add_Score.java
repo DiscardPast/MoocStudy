@@ -7,7 +7,7 @@ import java.util.Scanner;
 /**
  * Created by discardpast on 17-7-18.
  */
-public class AddScores {
+public class Add_Score {
     public static void main(String[] args)
     {
         //加分前成绩
