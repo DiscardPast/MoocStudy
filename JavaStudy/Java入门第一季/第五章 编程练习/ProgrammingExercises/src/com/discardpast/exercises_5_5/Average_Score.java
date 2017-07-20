@@ -83,6 +83,7 @@ public class Average_Score {
                 System.out.println();
             }
             System.out.println("该班平均成绩为:" + avge);
+            System.out.println();
         }
     }
 }
