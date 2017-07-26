@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2017-7-26 10:02:06 by Hibernate Tools 3.5.0.Final -->
+<!-- hbm文件常用设置 -->
+<!-- <hibernate-mapping schema="schemaName" catalog="catalogName" default-cascade="cascade_style"(级联风格) 
+      default-access="field|property|ClassName"(访问策略) default-lazy="true|false"(加载策略) package="packagename"/> -->
+<!-- <class name="ClassName" table="tableName" batch-size="N"(抓取策略) where="condition"(抓取条件) entity-name="EntityName"/> -->
+<!-- <id name="propertyName" type="typename" column="column_name" length="length" <generator class="generatorClass"/>(主键生成策略)/> -->
+<hibernate-mapping>
+    <class name="com.discardpast.chapter_one.persistence.Student" table="STUDENT">
+        <id name="sid" type="int">
+            <column name="SID" />
+            <!-- assigned 由java应用程序负责生成(手工赋值) -->
+            <!-- <generator class="assigned" /> -->
+            <!-- native 由底层数据库自动生成标示符,如果是MySQL就是increment(自增长),如果是Oracle就是sequence,详见参看主键生成策略.png -->
+            <generator class="native"/>
+        </id>
+        <property name="sname" type="java.lang.String">
+            <column name="SNAME" />
+        </property>
+        <property name="gender" type="java.lang.String">
+            <column name="GENDER" />
+        </property>
+        <!-- Date时间格式设置详见 时间基本类型.png -->
+        <property name="birthday" type="date">
+            <column name="BIRTHDAY" />
+        </property>
+        <property name="address" type="java.lang.String">
+            <column name="ADDRESS" />
+        </property>
+        <property name="picture" type="java.sql.Blob">
+        	<column name="PICTURE"/>
+        </property>
+        <component name="myaddress" class="com.discardpast.chapter_three.single_primary_key.MyAddress">
+        	<property name="postcode" >
+        		<column name="POSTCODE"/>
+        	</property>
+        	<property name="phone" >
+        		<column name="PHONE"/>
+        	</property>
+        	<property name="myaddress" >
+        		<column name="MYADDRESS"/>
+        	</property>
+        </component>
+    </class>
+</hibernate-mapping>

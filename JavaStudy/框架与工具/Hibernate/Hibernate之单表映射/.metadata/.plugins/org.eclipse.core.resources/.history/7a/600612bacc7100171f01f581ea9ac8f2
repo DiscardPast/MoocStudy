@@ -1,0 +1,40 @@
+package com.discardpast.chapter_three.single_primary_key;
+
+public class MyAddress {
+	
+	//邮编
+	private String postcode;
+	//电话
+	private String phone;
+	//地址
+	private String myaddress;
+	public MyAddress() {
+		//super();
+	}
+	public MyAddress(String postcode, String phone, String myaddress) {
+		//super();
+		this.postcode = postcode;
+		this.phone = phone;
+		this.myaddress = myaddress;
+	}
+	public String getPostcode() {
+		return postcode;
+	}
+	public void setPostcode(String postcode) {
+		this.postcode = postcode;
+	}
+	public String getPhone() {
+		return phone;
+	}
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+	public String getAddress() {
+		return myaddress;
+	}
+	public void setAddress(String address) {
+		this.myaddress = address;
+	}
+	
+	
+}
