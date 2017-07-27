@@ -1,0 +1,5 @@
+package com.discardpast.chapter_three_CRUDTest;
+
+public class SingleTableCRUD {
+
+}
