@@ -26,4 +26,18 @@ p{
     font-size: 30px;
 }
 /*子选择器*/
-.ol_class_test>li {  border: 1px solid red;  }
+.ol_class_test1>li {  border: 1px solid red;  }
+/*后代选择器*/
+.ol_class_test2 li{  border: 1px solid red;  }
+/*通用选择器*/
+*{color: deepskyblue}
+/*伪类选择器*/
+.a_test:hover
+{
+    color: crimson;
+}
+h4,h5
+{
+    color: gold;
+    font-size: 53px;
+}
