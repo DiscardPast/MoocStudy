@@ -1,0 +1,29 @@
+p{
+    /*字体*/
+    font-family: 文泉驿微米黑;
+    /*字号*/
+    font-size: 30px;
+    /*字体颜色*/
+    color: aquamarine;
+    /*粗体*/
+    font-weight: bold;
+    /*斜体*/
+    font-style: italic;
+    /*下划线*/
+    text-decoration: underline;
+    /*删除线*/
+    text-decoration: line-through;
+    /*缩进*/
+    /*em,文字的大小*/
+    text-indent: 2em;
+    /*行间距*/
+    line-height: 1.5em;
+    /*中文字间距*/
+    /*letter-spacing: 50px;*/
+    /*英文字间距*/
+    word-spacing: 50px;
+    /*对齐*/
+    /*center居中,left居左,right居右*/
+    text-align: center;
+
+}

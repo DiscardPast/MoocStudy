@@ -40,3 +40,26 @@ h1 .class_h1
 {
     color: deepskyblue;
 }*/
+/*层叠测试*/
+p{
+    color: black;
+}
+p{
+    color: #993300;
+}
+p{
+    color: blue;
+}
+/*重要性测试*/
+h3
+{
+    color: black;
+}
+h3
+{
+    color: burlywood!important;
+}
+h3
+{
+    color: chartreuse;
+}
