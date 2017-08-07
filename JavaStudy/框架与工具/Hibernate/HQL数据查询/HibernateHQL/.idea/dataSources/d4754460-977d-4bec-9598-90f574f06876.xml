@@ -63,7 +63,7 @@
       <Comment>所属商家</Comment>
       <DataType>int(11)|0</DataType>
     </column>
-    <index id="21" parent="9" name="Commodity_Seller_ID_fk">
+    <index id="21" parent="9" name="FK1jj21molt58f5eqcg765o9jn0">
       <ColNames>seller</ColNames>
     </index>
     <key id="22" parent="9" name="PRIMARY">

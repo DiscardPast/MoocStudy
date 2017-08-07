@@ -5,6 +5,7 @@ package com.discardpast.chapter_four.HQL.form;
  */
 
 import com.discardpast.chapter_three.Persistence.Customer;
+import com.discardpast.chapter_three.Persistence.OrderFrom;
 import com.discardpast.chapter_three.Util.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
@@ -54,4 +55,25 @@ public class CustomerTest {
             System.out.println("name:" + customer.getName());
         }
     }
+
+
+    /**
+     * distinct关键字
+     * 1.使用distinct关键字去处查询结果中的重复元素
+     */
+    @Test
+    public void selectCustomerBydistinct()
+    {
+        String hql = "select distinct c.sex from Customer as c";
+
+        Query query = session.createQuery(hql);
+
+        List<Object> objectList = query.list();
+
+        for (Object object:objectList) {
+            System.out.println("sex:" + object);
+        }
+    }
+
+    //
 }

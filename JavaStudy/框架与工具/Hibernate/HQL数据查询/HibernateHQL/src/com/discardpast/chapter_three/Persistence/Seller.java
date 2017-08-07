@@ -91,6 +91,12 @@ public class Seller {
     public Seller() {
     }
 
+    public Seller(String name, String tel, String address) {
+        this.name = name;
+        this.tel = tel;
+        this.address = address;
+    }
+
     public Seller(int id, String name, String tel, String address, String wesite, String star, String business) {
         this.id = id;
         this.name = name;
