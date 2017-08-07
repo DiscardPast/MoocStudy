@@ -104,7 +104,7 @@ public class StudentTest {
     @Test
     public void testReadBlob() throws Exception
     {
-        Student student = (Student)session.get(Student.class,2);
+        Student student = (Student)session.get(Student.class,7);
         Blob image = student.getPicture();
         InputStream inputStream = image.getBinaryStream();
         File file = new File("/home/discardpast/GitRemoteRepositories/MoocStudy/JavaStudy/框架与工具/Hibernate/Mylibrary" + File.separator +"gettest.jpg");

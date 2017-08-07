@@ -21,11 +21,11 @@
     </column>
     <column id="11" parent="8" name="gname">
       <Position>2</Position>
-      <DataType>varchar(255)|0</DataType>
+      <DataType>text|0</DataType>
     </column>
     <column id="12" parent="8" name="gdesc">
       <Position>3</Position>
-      <DataType>varchar(255)|0</DataType>
+      <DataType>text|0</DataType>
     </column>
     <key id="13" parent="8" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
@@ -40,17 +40,17 @@
     </column>
     <column id="15" parent="9" name="sname">
       <Position>2</Position>
-      <DataType>varchar(255)|0</DataType>
+      <DataType>text|0</DataType>
     </column>
     <column id="16" parent="9" name="sex">
       <Position>3</Position>
-      <DataType>varchar(255)|0</DataType>
+      <DataType>char(4)|0</DataType>
     </column>
     <column id="17" parent="9" name="gid">
       <Position>4</Position>
       <DataType>int(11)|0</DataType>
     </column>
-    <index id="18" parent="9" name="Student_Grade_gid_fk">
+    <index id="18" parent="9" name="FKjveloe80arvgk71hjw8bepr93">
       <ColNames>gid</ColNames>
     </index>
     <key id="19" parent="9" name="PRIMARY">
@@ -58,5 +58,17 @@
       <ColNames>sid</ColNames>
       <Primary>1</Primary>
     </key>
+    <foreign-key id="20" parent="9" name="FKjveloe80arvgk71hjw8bepr93">
+      <ColNames>gid</ColNames>
+      <RefSchemaName>hibernate_one_to_many</RefSchemaName>
+      <RefTableName>Grade</RefTableName>
+      <RefColNames>gid</RefColNames>
+    </foreign-key>
+    <foreign-key id="21" parent="9" name="Student_Grade_gid_fk">
+      <ColNames>gid</ColNames>
+      <RefSchemaName>hibernate_one_to_many</RefSchemaName>
+      <RefTableName>Grade</RefTableName>
+      <RefColNames>gid</RefColNames>
+    </foreign-key>
   </database-model>
 </dataSource>

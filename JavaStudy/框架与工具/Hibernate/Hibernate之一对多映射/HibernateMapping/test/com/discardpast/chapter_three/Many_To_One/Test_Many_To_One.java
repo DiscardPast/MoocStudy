@@ -56,7 +56,7 @@ public class Test_Many_To_One {
     public void findGradeByStudent()
     {
         Session session = HibernateUtil.getSession();
-        Student student = session.get(Student.class,1);
+        Student student = session.get(Student.class,15);
 
         Grade grade = student.getGrade();
         System.out.println(grade.getGid() + "," + grade.getGname() + "," +grade.getGdesc());
