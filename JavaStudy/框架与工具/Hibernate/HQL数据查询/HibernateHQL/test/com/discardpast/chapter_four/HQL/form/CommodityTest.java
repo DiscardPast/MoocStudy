@@ -17,7 +17,7 @@ import java.util.List;
 /**
  * from子句中持久化类的引用
  * 1.不需要引入持久化类的全限定名,直接引入类名
- * 2.auto-import(自动映入)缺省情况
+ * 2.auto-import(自动引入)缺省情况
  */
 public class CommodityTest {
 
