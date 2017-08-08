@@ -1,0 +1,39 @@
+/*盒模型缩写*/
+div{
+    /*上设置为10px、右设置为20px、下设置为30px、左设置为40px*/
+    padding: 10px 20px 30px 40px;
+    margin: 10px 20px 30px 40px;
+    /*如果都相同*/
+    /*
+    padding: 10px;
+    margin: 10px;
+    */
+    /*如果上右,下左相同*/
+    /*
+    padding: 10px 20px;
+    margin: 10px 20px;
+    */
+    border: 1px solid blue;
+
+}
+/*颜色缩写*/
+p
+{
+    /*color:#000000*/
+    color:#000;
+    /*color: #336699*/
+    /*{color: #369*/
+}
+/*字体缩写*/
+span{
+    /*下面代码等同于*/
+    /*
+        font-style:italic;
+        font-variant:small-caps;
+        font-weight:bold;
+        font-size:12px;
+        line-height:1.5em;
+        font-family:"宋体",sans-serif;
+    */
+    font:italic  small-caps  bold  12px/1.5em  "宋体",sans-serif;
+}

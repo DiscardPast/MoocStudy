@@ -35,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com.discardpast.chapter_twelve/Test.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="714">
@@ -45,10 +45,63 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IE盒子模型.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.discardpast.chapter_eleven/IE盒子模型.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="Css_Code_Abbreviation.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.discardpast.chapter_thirteen/Css_Code_Abbreviation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Units_And_Values.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.discardpast.chapter_fourteen/Units_And_Values.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="769">
+              <caret line="71" column="24" lean-forward="false" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.discardpast.chapter_fourteen/Test.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Css_Style_Set_Tips.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/com.discardpast.chapter_fifteen/Css_Style_Set_Tips.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="136" column="16" lean-forward="true" selection-start-line="136" selection-start-column="16" selection-end-line="136" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.discardpast.chapter_fifteen/Test.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="650">
+              <caret line="71" column="26" lean-forward="false" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.discardpast.chapter_thirteen/Test.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -100,6 +153,16 @@
         <option value="$PROJECT_DIR$/com.discardpast.chapter_eleven/CSS_Box_Model.html" />
         <option value="$PROJECT_DIR$/com.discardpast.chapter_twelve/CSS_Layout_Model.html" />
         <option value="$PROJECT_DIR$/com.discardpast.chapter_twelve/Test.css" />
+        <option value="$PROJECT_DIR$/Css_Code_Abbreviation.html" />
+        <option value="$PROJECT_DIR$/com.discardpast.chapter_thirteen/Test.css" />
+        <option value="$PROJECT_DIR$/com.discardpast.chapter_thirteen/Css_Code_Abbreviation.html" />
+        <option value="$PROJECT_DIR$/com.discardpast.chapter_thirteen/Units_And_Values.html" />
+        <option value="$PROJECT_DIR$/com.discardpast.chapter_fourteen/Units_And_Values.html" />
+        <option value="$PROJECT_DIR$/com.discardpast.chapter_fourteen/Test.css" />
+        <option value="$PROJECT_DIR$/com.discardpast.chapter_fifteen_/Css_Style_Set_Tips.html" />
+        <option value="$PROJECT_DIR$/com.discardpast.chapter_fifteen_/Test.css" />
+        <option value="$PROJECT_DIR$/com.discardpast.chapter_fifteen/Test.css" />
+        <option value="$PROJECT_DIR$/com.discardpast.chapter_fifteen/Css_Style_Set_Tips.html" />
       </list>
     </option>
   </component>
@@ -154,7 +217,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="com.discardpast.chapter_twelve" />
+              <option name="myItemId" value="com.discardpast.chapter_fifteen" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -171,14 +234,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/com.discardpast.eleven" />
-      <recent name="$PROJECT_DIR$/com.discardpast.chapter_four" />
-      <recent name="$PROJECT_DIR$/com.discardpast.chapter_one" />
-      <recent name="$PROJECT_DIR$/com.discardpast.chapter_three" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/com.discardpast.chapter_fourteen" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/com.discardpast.chapter_thirteen" />
+      <recent name="$PROJECT_DIR$/com.discardpast.eleven" />
+      <recent name="$PROJECT_DIR$/com.discardpast.chapter_four" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -291,18 +355,17 @@
       <workItem from="1501199808111" duration="4046000" />
       <workItem from="1501341009272" duration="2744000" />
       <workItem from="1501382969004" duration="1214000" />
-      <workItem from="1502199920826" duration="6225000" />
+      <workItem from="1502199920826" duration="12129000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36422000" />
+    <option name="totallyTimeSpent" value="42326000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="992" y="24" width="928" height="1056" extended-state="0" />
-    <editor active="true" />
+    <frame x="992" y="24" width="928" height="1056" extended-state="4" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24461207" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47952586" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -331,50 +394,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/com.discardpast.chapter_eight/CSS_Select_Test.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="19" lean-forward="false" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.discardpast.chapter_seven/Test.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/web-forms2.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10625">
-          <caret line="625" column="16" lean-forward="false" selection-start-line="625" selection-start-column="16" selection-end-line="625" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.discardpast.chapter_four/Email.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.discardpast.chapter_eight/CSS_Selector.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2108">
-          <caret line="124" column="18" lean-forward="false" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.discardpast.chapter_three/Html_Semantics.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com.discardpast.chapter_four/Html_Semantics.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -670,6 +689,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="42" column="12" lean-forward="false" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.discardpast.chapter_thirteen/Css_Code_Abbreviation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.discardpast.chapter_thirteen/Test.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.discardpast.chapter_fourteen/Units_And_Values.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="769">
+          <caret line="71" column="24" lean-forward="false" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.discardpast.chapter_fourteen/Test.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.discardpast.chapter_fifteen/Test.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="71" column="26" lean-forward="false" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.discardpast.chapter_fifteen/Css_Style_Set_Tips.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="136" column="16" lean-forward="true" selection-start-line="136" selection-start-column="16" selection-end-line="136" selection-end-column="16" />
           <folding />
         </state>
       </provider>
