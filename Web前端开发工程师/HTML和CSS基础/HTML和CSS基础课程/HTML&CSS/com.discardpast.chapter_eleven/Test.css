@@ -1,0 +1,50 @@
+/*块级元素*/
+a{
+    display: block;
+}
+/*内联元素*/
+div{
+    display: inline;
+}
+/*块级内联元素*/
+h1
+{
+    display: inline-block;
+}
+/*盒模型边框测试*/
+div{
+    border-width: 3px;
+    border-color: aquamarine;
+    border-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: red;
+    border-bottom-style: outset;
+}
+/*盒模型宽度和高度*/
+div{
+    /*内容宽度*/
+    /*该div宽度=width+border-width*2+padding-left+padding-right+margin-left+margin-right*/
+    /*高度同理*/
+    width: 200px;
+    border-width: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/*盒模型填充*/
+div
+{
+    padding-right: 10px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+/*盒模型边界*/
+div
+{
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}

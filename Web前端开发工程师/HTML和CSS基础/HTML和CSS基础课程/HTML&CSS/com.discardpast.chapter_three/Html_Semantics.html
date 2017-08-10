@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Study_HTML_Tag_Second</title>
+    <!--Table 表格在没有添加 css 样式之前，是没有边框的。这样不便于我们后期合并单元格知识点的讲解，所以在这一节中我们为表格添加一些样式，为它添加边框。-->
+    <style>
+        table tr td,th{border:1px solid #000;}
+    </style>
+</head>
+<body>
+<!--ul-li标签,ul-li是没有前后顺序的信息列表。-->
+<!--ul-li在网页中显示的默认样式一般为：每项li前都自带一个圆点-->
+<!--
+语法：
+
+<ul>
+  <li>信息</li>
+  <li>信息</li>
+   ......
+</ul>
+-->
+<ul>
+    <li>列表1,ul-li</li>
+    <li>列表2,ul-li</li>
+    <li>列表3,ul-li</li>
+</ul>
+
+<!--ol-li标签,ol-li是有前后顺序的信息列表。-->
+<!--ol-li在网页中显示的默认样式一般为：每项<li>前都自带一个序号，序号默认从1开始-->
+<!--
+语法：
+
+<ol>
+   <li>信息</li>
+   <li>信息</li>
+   ......
+</ol>
+-->
+<ol>
+    <li>列表1,ol-li</li>
+    <li>列表2,ol-li</li>
+    <li>列表3,ol-li</li>
+</ol>
+
+<!--div标签,相当于一个容器-->
+<!--在网页制作过程过中，可以把一些独立的逻辑部分划分出来，放在一个<div>标签中，这个<div>标签的作用就相当于一个容器。-->
+<!--
+语法：
+
+<div>…</div>
+确定逻辑部分：
+
+什么是逻辑部分？它是页面上相互关联的一组元素。如网页中的独立的栏目版块，就是一个典型的逻辑部分。
+-->
+<div>
+    <p>div模块一</p>
+</div>
+<div>
+    <p>div模块二</p>
+</div>
+<!--div命名,使逻辑更加清晰-->
+<!--使逻辑更加清晰，我们可以为这一个独立的逻辑部分设置一个名称，用id属性来为<div>提供唯一的名称，这个就像我们每个人都有一个身份证号，这个身份证号是唯一标识我们的身份的，也是必须唯一的-->
+<!--
+语法：
+
+<div  id="版块名称">…</div>
+-->
+<div id="modle_1">
+    <p>div模块一</p>
+</div>
+<div id="modle_2">
+    <p>div模块二</p>
+</div>
+
+<!--table标签,网络上的表格-->
+<!--
+创建表格的四个元素：
+
+table、tbody、tr、th、td
+
+1、<table>…</table>：整个表格以<table>标记开始、</table>标记结束。
+
+2、<tbody>…</tbody>：如果不加<thead><tbody><tfooter> , table表格加载完后才显示。加上这些表格结构， tbody包含行的内容下载完优先显示，不必等待表格结束后在显示，同时如果表格很长，用tbody分段，可以一部分一部分地显示。（通俗理解table 可以按结构一块块的显示，不在等整个表格加载完后显示。）
+
+
+
+3、<tr>…</tr>：表格的一行，所以有几对tr 表格就有几行。
+
+4、<td>…</td>：表格的一个单元格，一行中包含几对<td>...</td>，说明一行中就有几列。
+
+5、<th>…</th>：表格的头部的一个单元格，表格表头。
+
+6、表格中列的个数，取决于一行中数据单元格的个数。
+-->
+<!--
+总结：
+
+1、table表格在没有添加css样式之前，在浏览器中显示是没有表格线的
+
+2、表头，也就是th标签中的文本默认为粗体并且居中显示
+-->
+<table>
+    <!--<tbody>…</tbody>：如果不加<thead><tbody><tfooter> , table表格加载完后才显示。加上这些表格结构， tbody包含行的内容下载完优先显示，不必等待表格结束后在显示，同时如果表格很长，用tbody分段，可以一部分一部分地显示。（通俗理解table 可以按结构一块块的显示，不在等整个表格加载完后显示。）-->
+    <thead>
+    <tr>
+        <th>th表头</th>
+        <th>th表头</th>
+        <th>th表头</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>td表格</td>
+        <td>td表格</td>
+        <td>td表格</td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td>tr表行</td>
+        <td>tr表行</td>
+        <td>tr表行</td>
+    </tr>
+    </tfoot>
+</table>
+
+<!--为表格添加样式，详见head标签中的style标签-->
+<!--
+  <style>
+        table tr td,th{border:1px solid #000;}
+  </style>
+-->
+
+<!--caption标签，为表格添加标题和摘要-->
+<!--表格还是需要添加一些标签进行优化，可以添加标题和摘要-->
+<!--
+语法:
+<caption>表格名称</caption>
+-->
+<!--table属性summary,为表格添加摘要-->
+<!--摘要的内容是不会在浏览器中显示出来的。它的作用是增加表格的可读性(语义化)，使搜索引擎更好的读懂表格内容，还可以使屏幕阅读器更好的帮助特殊用户读取表格内容-->
+<!--
+语法：<table summary="表格简介文本">
+-->
+<table summary=“表格简介文本”>
+    <caption>表格名称</caption>
+    <thead>
+    <tr>
+        <th>th表头</th>
+        <th>th表头</th>
+        <th>th表头</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>td表格</td>
+        <td>td表格</td>
+        <td>td表格</td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td>tr表行</td>
+        <td>tr表行</td>
+        <td>tr表行</td>
+    </tr>
+    </tfoot>
+</table>
+</body>
+</html>
