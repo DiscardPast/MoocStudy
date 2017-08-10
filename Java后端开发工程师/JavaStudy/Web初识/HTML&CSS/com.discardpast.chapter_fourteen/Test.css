@@ -1,0 +1,13 @@
+/*长度值*/
+.p_px
+{
+    font-size: 10px;
+}
+.p_em
+{
+    font-size: 10em;
+}
+.p_baifenbi
+{
+    font-size: 10%;
+}

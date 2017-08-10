@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.discardpast.chapter_three.Persistence.OrderItem" table="OrderItem" schema="online_shopping">
+        <id name="id" column="ID"/>
+        <property name="orderid" column="orderid"/>
+        <property name="commodity" column="commodity"/>
+        <property name="discount" column="discount"/>
+        <property name="actprice" column="actprice"/>
+        <property name="amount" column="amount"/>
+    </class>
+</hibernate-mapping>
