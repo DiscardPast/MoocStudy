@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM</title>
+    <script type="text/javascript" src="test.js"></script>
+</head>
+<body>
+<h2><a href="https://www.baidu,com">(h2)JavaScript DOM</a></h2>
+<p id="mytitle">(p)对HTML元素进行操作,可添加.改变或移除样式等</p>
+<ul>
+    <li>(li)JavaScript</li>
+    <li>(li)DOM</li>
+    <li>(li)CSS</li>
+</ul>
+将HTML代码分解为DOM节点层次图:</br>
+<img src="../com.discardpast.chapter_three/images/DOM节点图.jpg">
+<p>
+    HTML文档可以说由节点构成的集合，三种常见的DOM节点:</br>
+
+    1. 元素节点：上图中html、body、p等都是元素节点，即标签。</br>
+
+    2. 文本节点:向用户展示的内容，如li...li中的JavaScript、DOM、CSS等文本。</br>
+
+    3. 属性节点:元素属性，如a标签的链接属性href="http://www.imooc.com"。</br>
+</p>
+
+<p id="testChange">测试改变p元素</p>
+<script type="text/javascript">
+    var testChange = document.getElementById("testChange");
+    document.write("p标签原始内容:" + testChange.innerText + "</br>");
+    testChange.innerText = "test change after!";
+    document.write("p标签修改后的内容:" + testChange.innerText + "</br>");
+</script>
+
+<p id="styleTest">
+    测试改变HTML样式
+</p>
+<script type="text/javascript">
+    var styleTest = document.getElementById("styleTest");
+    styleTest.style.color = "red";
+    styleTest.style.fontSize = "20";
+    styleTest.style.backgroundColor = "blue";
+
+    /*dispaly测试*/
+    styleTest.style.display = "none";
+</script>
+
+<p id="classNameTest" class="className1">
+    改变class类名
+</p>
+<script type="text/javascript">
+    var classNameTest = document.getElementById("classNameTest");
+    document.write("id为classNameTest的元素的类名为:" + classNameTest.className + "</br>");
+    //改变类名
+    classNameTest.className = "className2";
+    document.write("id为classNameTest的元素改名后的类名为:" + classNameTest.className);
+</script>
+</body>
+</html>

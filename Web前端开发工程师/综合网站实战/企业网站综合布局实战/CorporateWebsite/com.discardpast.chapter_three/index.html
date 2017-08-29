@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <script src="js/setHomeSetFav.js" type="text/javascript" charset="UTF-8"></script>
+    <script type="text/javascript" src="js/myfocus-2.0.1.min.js"></script>
+    <script type="text/javascript" src="js/mf-pattern/mF_fancy.js"></script>
+    <link type="text/css" href="js/mf-pattern/mF_fancy.css" rel="stylesheet">
+    <script type="text/javascript">
+        myFocus.set(
+            {
+                id: 'picbox'
+            }
+        )
+    </script>
+</head>
+<body>
+<div class="top">
+    <div class="top_content">
+        <ul>
+            <li><a href="#">联系我们</a></li>
+            <li><a href="#" onclick="AddFavorite(window.location,document.title)">加入收藏</a></li>
+            <li><a href="#" onclick="SetHome(window.location)">设为首页</a></li>
+        </ul>
+    </div>
+</div>
+<div class="warp">
+    <div class="log">
+        <div class="log_left">
+            <img src="images/logo.jpg" alt="慕课网">
+        </div>
+        <div class="log_right">
+            <img src="images/tel.jpg" alt="服务热线">24小时服务热线:<span class="tel">123-456-789</span>
+        </div>
+    </div><!--log结束-->
+    <div class="nav">
+        <div class="nav_left"></div><!--nav_left结束-->
+        <div class="nav_mid">
+            <div class="nav_mid_left">
+                <ul>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="list.html">关于慕课</a></li>
+                    <li><a href="list.html">新闻动态</a></li>
+                    <li><a href="list.html">课程中心</a></li>
+                    <li><a href="list.html">在线课程</a></li>
+                    <li><a href="list.html">人才招聘</a></li>
+                </ul>
+            </div>
+            <div class="nav_mid_right">
+                <form action="" method="post">
+                    <input type="text" class="search_text"/>
+                </form>
+            </div>
+        </div><!--nav_mid结束-->
+        <div class="nav_right"></div><!--nav_right结束-->
+    </div>
+    <div class="ad" id="picbox">
+        <div class="loading">
+            <img src="images/loading.gif" alt="图片加载中...">
+        </div>
+        <div class="pic">
+            <ul>
+                <li><img src="images/ad2.jpg"></li>
+                <li><img src="images/ad3.jpg"></li>
+                <li><img src="images/ad4.jpg"></li>
+            </ul>
+        </div>
+    </div>
+    <div class="main">
+        <div class="news">
+            <div class="title">
+                <h2 class="title_left">新闻中心</h2>
+                <span class="title_right"> <a href="news.html">More&gt;&gt;</a></span>
+            </div>
+            <div class="pic_news">
+                <img src="images/news.jpg">
+                <h2>520 慕女神喊你来表白!</h2>
+                <p>
+                    测试测试测试测试测试测试测试测试测试测试<br/>
+                    测试测试测试测试测试测试测试测试测试测试<br/>
+                    测试测试测试测试测试测试测试测试测试测试<br/>
+                </p>
+            </div>
+            <div class="news_list">
+                <ul>
+                    <li><a href="#">测试测试测试测试测试测试</a> </li>
+                    <li><a href="#">测试试测试测试测试</a> </li>
+                    <li><a href="#">测试试测试测试测试</a> </li>
+                </ul>
+            </div>
+        </div>
+        <div class="course"></div>
+        <div class="sidebar"></div>
+    </div>
+</div><!--warp结束-->
+
+</body>
+</html>

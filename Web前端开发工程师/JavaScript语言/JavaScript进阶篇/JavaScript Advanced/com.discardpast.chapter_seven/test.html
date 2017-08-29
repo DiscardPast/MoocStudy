@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<br lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<br>
+<!--什么是对象-->
+<!--
+JavaScript 中的所有事物都是对象，如:字符串、数值、数组、函数等，每个对象带有属性和方法。
+
+对象的属性：反映该对象某些特定的性质的，如：字符串的长度、图像的长宽等；
+
+对象的方法：能够在对象上执行的动作。例如，表单的“提交”(Submit)，时间的“获取”(getYear)等；
+
+JavaScript 提供多个内建对象，比如 String、Date、Array 等等，使用对象前先定义
+-->
+<!--
+访问对象属性的语法:
+
+objectName.propertyName
+
+访问对象的方法：
+
+objectName.methodName()
+-->
+
+
+<!--Date 日期对象-->
+<!--
+日期对象可以储存任意一个日期，并且可以精确到毫秒数（1/1000 秒）。
+
+定义一个时间对象 :
+
+var Udate=new Date();
+注意:使用关键字new，Date()的首字母必须大写。
+
+使 Udate 成为日期对象，并且已有初始值：当前时间(当前电脑系统时间)。
+
+访问方法语法：“<日期对象>.<方法>”
+-->
+Date对象中处理时间和日期的常用方法：</br>
+<img src="../com.discardpast.chapter_seven/images/Date对象中处理时间和日期的常用方法.jpg"></br>
+
+
+<!--返回/设置年份方法-->
+<!--
+get/setFullYear() 返回/设置年份，用四位数表示。
+
+注意:
+
+1.结果格式依次为：星期、月、日、年、时、分、秒、时区。(火狐浏览器)
+
+2. 不同浏览器，时间格式有差异。
+-->
+
+
+<!--返回星期方法-->
+<!--
+getDay() 返回星期，返回的是0-6的数字，0 表示星期天
+-->
+
+
+<!--返回/设置时间方法-->
+<!--
+get/setTime() 返回/设置时间，单位毫秒数，计算从 1970 年 1 月 1 日零时到日期对象所指的日期的毫秒数。
+-->
+<script type="text/javascript">
+    //返回当前时间
+    var date = new Date();
+    document.write(date + "</br>");
+    //输出当前年份
+    document.write(date.getFullYear() + "</br>");
+    //设置年份
+    //注意:不同浏览器， mydate.setFullYear(81)结果不同，年份被设定为 0081或81两种情况。
+    //date.setFullYear(81);
+    //document.write(date + "</br>");
+
+    //返回星期
+    //0~6="星期日","星期一","星期二","星期三","星期四","星期五","星期六"
+    document.write(date.getDay() + "</br>");
+
+    //当前时间
+    document.write(date.getTime() + "</br>");
+    document.write(date + "</br>");
+    //设置当前事件
+    //推迟一小时
+    //document.write(date.setTime(date.getTime() + 60*60*1000) + "</br>");
+    //document.write(date + "</br>");
+
+</script>
+
+<!--String 字符串对象-->
+
+
+<!--返回指定位置的字符-->
+<!--
+charAt(index) 方法可返回指定位置的字符。返回的字符是长度为 1 的字符串。
+
+index:必需,表示字符串中某个位置的数字,即字符在字符串中的下标
+
+注意：1.字符串中第一个字符的下标是 0。最后一个字符的下标为字符串长度减一（string.length-1）。
+
+     2.如果参数 index 不在 0 与 string.length-1 之间，该方法将返回一个空字符串。
+
+注意：一个空格也算一个字符。
+-->
+
+
+<!--返回指定的字符串首次出现的位置-->
+<!--
+indexOf() 方法可返回某个指定的字符串值在字符串中首次出现的位置。
+
+语法
+
+stringObject.indexOf(substring, startpos)
+
+参数说明：
+    substring:必需,规定需检索的字符串值
+    startpos:可选的整数参数.规定在字符串中开始检索的位置.他的合法取值是0~stringObject.length-1.
+             如省略该参数,则将从字符串的首字符开始检索
+
+说明：
+
+1.该方法将从头到尾地检索字符串 stringObject，看它是否含有子串 substring。
+
+2.可选参数，从stringObject的startpos位置开始查找substring，如果没有此参数将从stringObject的开始位置查找。
+
+3.如果找到一个 substring，则返回 substring 的第一次出现的位置。stringObject 中的字符位置是从 0 开始的。
+
+注意：1.indexOf() 方法区分大小写。
+
+2.如果要检索的字符串值没有出现，则该方法返回 -1。
+-->
+
+
+<!--字符串分割split()-->
+<!--
+知识讲解：
+
+split() 方法将字符串分割为字符串数组，并返回此数组。
+
+语法：
+
+stringObject.split(separator,limit)
+
+参数说明:
+    separator:必需,从指定的地方分割stringObject
+    limit:可选参数,分割的次数,如设置该参数,返回的子串不会多于这个参数指定的数组,如果无此参数为不限制次数
+
+注意：如果把空字符串 ("") 用作 separator，那么 stringObject 中的每个字符之间都会被分割。
+-->
+
+
+<!--提取字符串substring()-->
+<!--
+substring() 方法用于提取字符串中介于两个指定下标之间的字符。
+
+语法:
+
+stringObject.substring(startPos,stopPos)
+
+参数说明:
+    startPos:必需.一个非负的整数,开始位置
+    stopPos:可选.一个非负的证书,结束位置,如果省略该参数,那么返回的子串会一直到字符串对象的结尾
+-->
+
+
+<!--提取指定数目的字符substr()-->
+<!--
+substr() 方法从字符串中提取从 startPos位置开始的指定数目的字符串。
+
+语法:
+
+stringObject.substr(startPos,length)
+
+参数说明:
+    startPos:startPos:必需.一个非负的整数,开始位置
+    length:可选.提取字符串的长度.如果省略,返回从stringObject的开始位置startPos到stringObject的结尾的字符
+
+注意：如果参数startPos是负数，从字符串的尾部开始算起的位置。也就是说，-1 指字符串中最后一个字符，-2 指倒数第二个字符，以此类推。
+
+如果startPos为负数且绝对值大于字符串长度，startPos为0。
+-->
+<script type="text/javascript">
+    //定义字符串对象
+    var mystr = "i love javascript";
+    document.write(mystr + "</br>");
+    //访问字符串对象的属性length
+    document.write(mystr.length + "</br>");
+    //访问字符串对象的方法
+    document.write(mystr.toUpperCase() + "</br>");
+    //但会10位置上的字符
+    document.write(mystr.charAt(10) + "</br>");
+    //返回第一次出现a的位置
+    document.write(mystr.indexOf("a") + "</br>");
+    //字符串分割
+    document.write(mystr.split("a") + "</br>");
+    //字符串每个字符分割
+    document.write(mystr.split("") + "</br>");
+    //提取字符串
+    document.write(mystr.substring(5) + "</br>");
+    //提取指定数目的字符
+    document.write(mystr.substr(0,6) + "</br>");
+</script>
+
+
+<!--Math对象-->
+<!--
+Math对象，提供对数据的数学计算。
+
+注意：Math 对象是一个固有的对象，无需创建它，直接把 Math 作为对象使用就可以调用其所有属性和方法。这是它与Date,String对象的区别。
+-->
+Math 对象属性:</br>
+<img src="images/Math对象属性.jpg"></br>
+Math 对象方法:</br>
+<img src="images/Math对象方法.jpg"></br>
+
+
+<!--向上取整ceil()-->
+<!--
+ceil() 方法可对一个数进行向上取整。
+
+语法:
+
+Math.ceil(x)
+
+参数说明:
+    x:必需,必须是一个数值.
+
+注意：它返回的是大于或等于x，并且与x最接近的整数。
+-->
+
+
+<!--向下取整floor()-->
+<!--
+floor() 方法可对一个数进行向下取整。
+
+语法:
+
+Math.floor(x)
+
+参数说明:
+    x:必需,必须是一个数值.
+
+注意：返回的是小于或等于x，并且与 x 最接近的整数。
+-->
+
+
+<!--四舍五入round()-->
+<!--
+round() 方法可把一个数字四舍五入为最接近的整数。
+
+语法:
+
+Math.round(x)
+
+参数说明:
+    x:必需,必须是一个数值.
+
+注意：
+
+1. 返回与 x 最接近的整数。
+
+2. 对于 0.5，该方法将进行上舍入。(5.5 将舍入为 6)
+
+3. 如果 x 与两侧整数同等接近，则结果接近 +∞方向的数字值 。
+-->
+
+<!--随机数 random()-->
+<!--
+random() 方法可返回介于 0 ~ 1（大于或等于 0 但小于 1 )之间的一个随机数。
+语法：
+
+Math.random();
+注意：返回一个大于或等于 0 但小于 1 的符号为正的数字值。
+
+注意:因为是随机数，所以每次运行结果不一样，但是0 ~ 1的数值。
+
+-->
+<script type="text/javascript">
+    //向上取整
+    document.write(Math.ceil(-9.9) + "</br>");
+    //向下取整
+    document.write(Math.floor(-9.9) + "</br>");
+    //四舍五入
+    document.write(Math.round(5.2) + "</br>");
+    document.write(Math.round(5.7) + "</br>");
+    //随机数
+    document.write(Math.random() + "</br>");
+</script>
+
+
+<!--Array 数组对象-->
+<!--
+数组对象是一个对象的集合，里边的对象可以是不同类型的。数组的每一个成员对象都有一个“下标”，用来表示它在数组中的位置，是从零开始的
+
+数组定义的方法：
+
+1. 定义了一个空数组:
+
+var  数组名= new Array();
+2. 定义时指定有n个空元素的数组：
+
+var 数组名 =new Array(n);
+3.定义数组的时候，直接初始化数据：
+
+var  数组名 = [<元素1>, <元素2>, <元素3>...];
+我们定义myArray数组，并赋值，代码如下：
+
+var myArray = [2, 8, 6];
+说明：定义了一个数组 myArray，里边的元素是：myArray[0] = 2; myArray[1] = 8; myArray[2] = 6。
+
+数组元素使用：
+
+数组名[下标] = 值;
+注意: 数组的下标用方括号括起来，从0开始。
+
+数组属性：
+
+length 用法：<数组对象>.length；返回：数组的长度，即数组里有多少个元素。它等于数组里最后一个元素的下标加一。
+
+-->
+数组方法：</br>
+<img src="images/数组方法.jpg"></br>
+
+
+<!--数组连接concat()-->
+<!--
+concat() 方法用于连接两个或多个数组。此方法返回一个新数组，不改变原来的数组。
+
+语法
+
+arrayObject.concat(array1,array2,...,arrayN)
+
+参数说明:
+    array1:要连接的第一个数组
+    ...:...
+    arrayN:要连接的第N个数组
+
+注意:  该方法不会改变现有的数组，而仅仅会返回被连接数组的一个副本。
+-->
+
+
+<!--指定分隔符连接数组元素join()-->
+<!--
+join()方法用于把数组中的所有元素放入一个字符串。元素是通过指定的分隔符进行分隔的。
+
+语法：
+
+arrayObject.join(分隔符)
+
+参数说明:
+    separator:可选.指定要使用的分隔符,如果省略该参数,则使用逗号作为分隔符
+
+注意：返回一个字符串，该字符串把数组中的各个元素串起来，用<分隔符>置于元素与元素之间。这个方法不影响数组原本的内容。
+-->
+
+
+<!--颠倒数组元素顺序reverse()-->
+<!--
+reverse() 方法用于颠倒数组中元素的顺序。
+
+语法：
+
+arrayObject.reverse()
+注意：该方法会改变原来的数组，而不会创建新的数组。
+-->
+
+
+<!--选定元素slice()-->
+<!--
+语法
+
+arrayObject.slice(start,end)
+
+参数说明：
+    start:必需,规定从何处开始选取.如果是负数,那么它规定从数组尾部开始算起的位置.也就是说,-1指最后一个元素,-2指倒数第二个元素,以此类推.
+    end:可选.规定从何处结束选取.该参数是数组片断结束处的数组下标.如果没有指定该参数,那么切分的数组包含从start到数组结束的所有元素.如果这个参数是负数,那么它规定的是从数组尾部开始算起的元素
+
+1.返回一个新的数组，包含从 start 到 end （不包括该元素）的 arrayObject 中的元素。
+
+2. 该方法并不会修改数组，而是返回一个子数组。
+
+注意：
+
+1. 可使用负值从数组的尾部选取元素。
+
+2.如果 end 未被规定，那么 slice() 方法会选取从 start 到数组结尾的所有元素。
+
+3. String.slice() 与 Array.slice() 相似。
+-->
+
+
+<!--数组排序sort()-->
+<!--
+sort()方法使数组中的元素按照一定的顺序排列。
+
+语法:
+
+arrayObject.sort(方法函数)
+
+参数说明：
+    方法函数:可选.规定排序顺序.必须是函数
+
+1.如果不指定<方法函数>，则按unicode码顺序排列。
+
+2.如果指定<方法函数>，则按<方法函数>所指定的排序方法排序。
+
+myArray.sort(sortMethod);
+注意: 该函数要比较两个值，然后返回一个用于说明这两个值的相对顺序的数字。比较函数应该具有两个参数 a 和 b，其返回值如下：
+
+  若返回值<=-1，则表示 A 在排序后的序列中出现在 B 之前。
+  若返回值>-1 && <1，则表示 A 和 B 具有相同的排序顺序。
+  若返回值>=1，则表示 A 在排序后的序列中出现在 B 之后。
+-->
+<script type="text/javascript">
+    var mya = new Array(3);
+    mya[0] = "1";
+    mya[1] = "2";
+    mya[2] = "3";
+    document.write(mya.concat(4,5)+"<br>");
+    document.write(mya+"<br>");
+
+    var myarr = new Array(3);
+    myarr[0] = "I";
+    myarr[1] = "love";
+    myarr[2] = "JavaScript";
+    document.write(myarr.join("|")+"<br>");
+
+    document.write(mya.reverse()+"<br>");
+
+    var myarr = new Array(1,2,3,4,5,6);
+    document.write(myarr + "<br>");
+    document.write(myarr.slice(2,4) + "<br>");
+    document.write(myarr + "<br>");
+
+    var myarr1 = new Array("Hello","John","love","JavaScript");
+    var myarr2 = new Array("80","16","50","6","100","1");
+    document.write(myarr1.sort()+"<br>");
+    document.write(myarr2.sort()+"<br>");
+</script>
+
+
+<!--编程练习-->
+<script type="text/javascript">
+
+</script>
+</body>
+</html>
