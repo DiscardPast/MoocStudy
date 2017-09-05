@@ -18,19 +18,19 @@ package com.discardpast.singleton;
 /**
  * 饿汉模式
  */
-public class Singleton {
+public class Singleton_Hungry {
 
     //1.将构造方法私有化,不允许外部直接创建对象
-    private  Singleton()
+    private Singleton_Hungry()
     {
 
     }
 
     //2.创建类的唯一实例,使用private static修饰
-    private static Singleton instance = new Singleton();
+    private static Singleton_Hungry instance = new Singleton_Hungry();
 
     //3.提供一个用于或去市里的方法,使用public static修饰
-    public static Singleton getInstance(){
+    public static Singleton_Hungry getInstance(){
         return instance;
     }
 }

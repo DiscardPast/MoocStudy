@@ -9,8 +9,8 @@ public class Test {
         /**
          * 饿汉模式
          */
-        Singleton s1 = Singleton.getInstance();
-        Singleton s2 = Singleton.getInstance();
+        Singleton_Hungry s1 = Singleton_Hungry.getInstance();
+        Singleton_Hungry s2 = Singleton_Hungry.getInstance();
         if(s1 == s2)
         {
             System.out.println("s1和s2是同一个实例");
@@ -23,8 +23,8 @@ public class Test {
         /**
          * 懒汉模式
          */
-        Singleton2 s3 = Singleton2.getInstance();
-        Singleton2 s4 = Singleton2.getInstance();
+        Singleton_Lazy s3 = Singleton_Lazy.getInstance();
+        Singleton_Lazy s4 = Singleton_Lazy.getInstance();
         if(s3 == s4)
         {
             System.out.println("s1和s2是同一个实例");
