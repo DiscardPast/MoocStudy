@@ -1,0 +1,19 @@
+*
+{
+    margin: 0;
+    padding:0;
+}
+body,html
+{
+    height: 100%;
+    Font-size:50%
+}
+.main
+{
+    width: 100%;
+    height: 100%;
+    background-color: #a6e1ec;
+}
+#d{
+    font-size:20em;
+}
