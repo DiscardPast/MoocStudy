@@ -176,17 +176,18 @@
 		- data-:HTML5中新增的自定义data属性，可在其后添加自定义内容，在页面上不显示，不会影响到页面的正常显示，可以通过自定义的属性实现，一些数据传递，数据交互的效果等
 	2. 字体图标
 		- 带有字体图标的按钮代码
-			- ```
+```
 <button class="btn btn-danger">
 <span class="glyphicon glyphicon-star"></span>
     这是一个带有star的按钮
-</button>```
+</button>
+```
 	3. 下拉菜单
 		- .dropdown控制组件为下拉
 		- .dropdown-menu-right代替.pull-rirht右对齐
 		- divider分割线
 		- 代码
-			- ```
+```
 <div class="dropdown">
     <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
         这是按钮
@@ -205,7 +206,7 @@
 		- .input-group表示控件组
 		- .input-group-addon可放置额外的内容及图标
 		- 代码
-			- ```
+```
 <div class="input-group">
     <span class="input-group-addon">
         账户
@@ -218,7 +219,7 @@
 		- .nav-pills代表胶囊导航
 		- .nav-tabs-justified使导航垂直
 		- 代码
-			- ```
+```
 <div>
     <ul class="nav nav-tabs">
         <li><a href="#">1</a></li>
@@ -252,7 +253,8 @@
 		- .pager放置在翻页区域
 		- .previous把链接向左对齐,。next把链接向右对齐。
 		- 代码
-			- ```
+
+```
 <div>
 <ul class="pagination ">
     <li><a href="#">Prev</a></li>
@@ -263,24 +265,27 @@
     <li><a href="#">5</a></li>
     <li><a href="#">Next</a></li>
 </ul>
-</div>```
+</div>`
+``
+
 	7. 进度条
 		- .progress表示进度条
 		- 通过状态类改变进度条的颜色
 		- .progress-bar-striped使得进度条颜色渐变、
 		- 代码
-			- ```
+```
 <div class="progress">
     <div class="progress-bar progress-bar-success progress-bar-striped" style="width:60%">
         60%
     </div>
-</div>```
+</div>
+```
 	8. 列表
 		- .list-group代表列表组
 		- .badge代表状态数
 		- .active代表选中状态
 		- 代码
-			- ```
+```
 <div>
     <ul class="list-group">
         <li class="list-group-item active">
@@ -296,13 +301,15 @@
             <span class="badge">14</span>
         </li>
     </ul>
-</div>```
+</div>
+```
 	9. 面板
 		- .panel代表面板
 		- .panel-body代表面板内容
 		- .panel-footer代表面板的注脚
 		- 代码
-			- ```
+
+```
 <div class="panel panel-primary">
     <div class="panel-heading">
         弹出层
@@ -313,7 +320,8 @@
     <div class="panel-footer">
         面板的脚注
     </div>
-</div>```
+</div>
+```
 
 * Boorstrap中的插件
 	1. Bootstrap插件依赖Bootstrap.js
