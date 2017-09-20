@@ -108,6 +108,7 @@
 				- minimum-scale：最小的缩放比例
 	2. 栅格化布局
 		- 代码
+
 ```
 <style>
         .test
@@ -126,12 +127,14 @@
         }
 </style>
 ```
+
 		- 参数详解
 			- max-width:当前屏幕最大多少时使用下面样式
 			- min-width：当前屏幕最小多少时使用下面样式
 			- bootstrap中的栅格布局
 			- 会将屏幕纵向分为12份
 			- 代码
+
 ```
 .bootstrap-test
         {
@@ -140,6 +143,7 @@
         }
         <div class="bootstrap-test col-lg-3 col-md-4 col-sm-6 col-xs-12 col-lg-offset-3 col-md-offset-4"></div>
 ```
+
             - 参数详解
             	- bootstrap-test:原有样式
             	- col-lg-3:超大屏时占3/12份
@@ -176,17 +180,20 @@
 		- data-:HTML5中新增的自定义data属性，可在其后添加自定义内容，在页面上不显示，不会影响到页面的正常显示，可以通过自定义的属性实现，一些数据传递，数据交互的效果等
 	2. 字体图标
 		- 带有字体图标的按钮代码
+
 ```
 <button class="btn btn-danger">
 <span class="glyphicon glyphicon-star"></span>
     这是一个带有star的按钮
 </button>
 ```
+
 	3. 下拉菜单
 		- .dropdown控制组件为下拉
 		- .dropdown-menu-right代替.pull-rirht右对齐
 		- divider分割线
 		- 代码
+
 ```
 <div class="dropdown">
     <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
@@ -202,23 +209,28 @@
     </ul>
 </div>
 ```
+
 	4. 控件组
 		- .input-group表示控件组
 		- .input-group-addon可放置额外的内容及图标
 		- 代码
+
 ```
 <div class="input-group">
     <span class="input-group-addon">
         账户
     </span>
     <input type="text" class="form-control">
-</div>```
+</div>
+```
+
 	5. 导航
 		- 以一个带有class.nav的无序列表开始
 		- .nav-tabs代表可切换的导航
 		- .nav-pills代表胶囊导航
 		- .nav-tabs-justified使导航垂直
 		- 代码
+
 ```
 <div>
     <ul class="nav nav-tabs">
@@ -248,6 +260,7 @@
     </ul>
 </div>
 ```
+
 	6. 分页
 		- .pagination在父元素中添加表示分页
 		- .pager放置在翻页区域
@@ -273,6 +286,7 @@
 		- 通过状态类改变进度条的颜色
 		- .progress-bar-striped使得进度条颜色渐变、
 		- 代码
+
 ```
 <div class="progress">
     <div class="progress-bar progress-bar-success progress-bar-striped" style="width:60%">
@@ -280,11 +294,13 @@
     </div>
 </div>
 ```
+
 	8. 列表
 		- .list-group代表列表组
 		- .badge代表状态数
 		- .active代表选中状态
 		- 代码
+
 ```
 <div>
     <ul class="list-group">
@@ -303,6 +319,7 @@
     </ul>
 </div>
 ```
+
 	9. 面板
 		- .panel代表面板
 		- .panel-body代表面板内容
