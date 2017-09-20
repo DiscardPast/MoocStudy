@@ -109,7 +109,7 @@
 	2. 栅格化布局
 		- 代码
 			- ```
-		<style>
+<style>
         .test
         {
             width:300px;
