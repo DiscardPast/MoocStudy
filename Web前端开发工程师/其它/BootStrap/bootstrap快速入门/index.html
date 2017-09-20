@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1, maximum-scale=1,minimum-scale=1,user-scalable=yes">
+    <title>Title</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="jquery/jquery-3.2.1.min%20.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <style>
+
+        .test {
+            width: 300px;
+            height: 200px;
+            background-color: #1b6d85;
+        }
+
+        .bootstrap-test {
+            height: 200px;
+            background-color: #985f0d;
+        }
+
+        @media only screen and (max-width: 900px) and (min-width: 500px) {
+            .test {
+                width: 100%;
+                height: 100px;
+                background-color: #5cb85c;
+            }
+        }
+
+        .glyphicon-asterisk {
+            color: #5bc0de;
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+<button class="btn btn-info">hello world!</button>
+<h1>标题一</h1>
+<h2>标题二</h2>
+<h3>标题三</h3>
+<h4>标题四</h4>
+<h5>标题五</h5>
+<h6>标题六</h6>
+<small class="h1">标题一</small>
+<small class="h2">标题二</small>
+<small class="h3">标题三</small>
+<small class="h4">标题四</small>
+<small class="h5">标题五</small>
+<small class="h6">标题六</small>
+<h1>大标题
+    <small>小标题</small>
+</h1>
+<p>
+    <mark>mark标签测试</mark>
+    <del>删除文本标签测试</del>
+    <ins>插入文本标签测试</ins>
+    <u>下划线文本标签测试</u><strong>着重文本标签测试</strong>段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试
+</p>
+<p class="text-left"><strong>左对齐</strong>段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试
+</p>
+<p class="text-center"><strong>居中对齐</strong>段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试
+</p>
+<p class="text-right"><strong>右对齐</strong>段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试段落测试
+</p>
+<p class="text-lowercase"><strong>小写测试</strong>Hello World!</p>
+<p class="text-uppercase"><strong>大写测试</strong>Hello World!</p>
+<p class="text-capitalize"><strong>首字母大写测试</strong>hello World!</p>
+<table class="table table-bordered">
+    <thead>
+    <tr>
+        <th>标题一</th>
+        <th>标题二</th>
+        <th>标题三</th>
+        <th>标题四</th>
+        <th>标题五</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="bg-success">
+        <td>内容一</td>
+        <td>内容二</td>
+        <td>内容三</td>
+        <td>内容四</td>
+        <td>内容五</td>
+    </tr>
+    <tr class="bg-info">
+        <td>内容一</td>
+        <td>内容二</td>
+        <td>内容三</td>
+        <td>内容四</td>
+        <td>内容五</td>
+    </tr>
+    <tr class="bg-danger">
+        <td>内容一</td>
+        <td>内容二</td>
+        <td>内容三</td>
+        <td>内容四</td>
+        <td>内容五</td>
+    </tr>
+    <tr class="bg-warning">
+        <td>内容一</td>
+        <td>内容二</td>
+        <td>内容三</td>
+        <td>内容四</td>
+        <td>内容五</td>
+    </tr>
+    <tr class="bg-primary">
+        <td>内容一</td>
+        <td>内容二</td>
+        <td>内容三</td>
+        <td>内容四</td>
+        <td>内容五</td>
+    </tr>
+    </tbody>
+</table>
+<form class="">
+    <div class="form-group has-error">
+        <label class="control-label" for="">这是一个输入框:</label>
+        <input type="text" class="input-sm form-control" placeholder="这是一个输入框">
+    </div>
+    <div class="form-group has-success">
+        <label class="control-label" for="">这是一个下拉选择框:</label>
+        <select class="form-control" name="" id="">
+            <option value="">北京</option>
+            <option value="">北京</option>
+            <option value="">北京</option>
+            <option value="">北京</option>
+        </select>
+    </div>
+    <div class="form-group has-warning">
+        <label class="control-label" for="">这是一个文本域:</label>
+        <textarea class="form-control" name="" id="" cols="30" role="10"></textarea>
+    </div>
+</form>
+
+<button class="btn btn-default btn-lg">这是一个按钮</button>
+<button class="btn btn-success btn-sm">这是一个按钮</button>
+<button class="btn btn-primary active">这是一个按钮</button>
+<button class="btn btn-info btn-block">这是一个按钮</button>
+<button class="btn btn-warning" disabled="disabled">这是一个按钮</button>
+<button class="btn btn-danger">这是一个按钮</button>
+<button class="btn btn-link">这是一个按钮</button>
+<a class="btn btn-danger">这是一个a标签制作成的按钮</a>
+
+<div class="test">
+</div>
+<div class="bootstrap-test col-lg-3 col-md-4 col-sm-6 col-xs-12 col-lg-offset-3 col-md-offset-4"></div>
+<button class="btn btn-danger">
+    <span class="glyphicon glyphicon-star"></span>
+    这是一个带有star的按钮
+</button>
+<div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        这是按钮
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+    </ul>
+</div>
+
+<div class="input-group">
+    <span class="input-group-addon">
+        账户
+    </span>
+    <input type="text" class="form-control">
+</div>
+<div>
+    <ul class="nav nav-tabs">
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+    </ul>
+</div>
+<div>
+    <ul class="nav nav-pills">
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+    </ul>
+</div>
+<div>
+    <ul class="nav nav-tabs-justified">
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+    </ul>
+</div>
+<div>
+<ul class="pagination ">
+    <li><a href="#">Prev</a></li>
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li><a href="#">Next</a></li>
+</ul>
+</div>
+<div class="progress">
+    <div class="progress-bar progress-bar-success progress-bar-striped" style="width:60%">
+        60%
+    </div>
+</div>
+
+<div>
+    <ul class="list-group">
+        <li class="list-group-item active">
+            这是一个列表
+            <span class="badge">14</span>
+        </li>
+        <li class="list-group-item disabled">
+            这是一个列表
+            <span class="badge">14</span>
+        </li>
+        <li class="list-group-item list-group-item-warning">
+            这是一个列表
+            <span class="badge">14</span>
+        </li>
+    </ul>
+</div>
+
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        弹出层
+    </div>
+    <div class="panel-body">
+        面板的具体内容
+    </div>
+    <div class="panel-footer">
+        面板的脚注
+    </div>
+</div>
+
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+    弹窗
+</button>
+<button class="btn btn-primary" data-toggle="modal" data-target="#modaltest">
+    测试
+</button>
+
+<div id="modaltest">
+    测试
+</div>
+
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span>&times;</span><span class="sr-only">关闭弹窗</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">标题</h4>
+            </div>
+            <div class="modal-body">
+                慕课网
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">关闭</button>
+                <button type="button" class="btn btn-primary">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
