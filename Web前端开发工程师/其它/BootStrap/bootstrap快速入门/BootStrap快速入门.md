@@ -229,9 +229,9 @@
 		- .nav-tabs代表可切换的导航
 		- .nav-pills代表胶囊导航
 		- .nav-tabs-justified使导航垂直
-		- 代码
 
 ```
+示例代码:
 <div>
     <ul class="nav nav-tabs">
         <li><a href="#">1</a></li>
