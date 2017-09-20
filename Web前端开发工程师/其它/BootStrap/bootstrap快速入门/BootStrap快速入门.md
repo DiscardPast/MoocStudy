@@ -172,8 +172,8 @@ bootstrap栅格化布局示例代码：
 			- em会继承父级元素的字体大小
 			- IE的部分浏览器不支持em
 		- rem
-        	- rem与em类似，相对于HTML根节点的字体单位
-        	- html{font-size:62.5%;}(10px)
+        		- rem与em类似，相对于HTML根节点的字体单位
+        		- html{font-size:62.5%;}(10px)
 
 ##### 4. 图标
 		- 字体图标
