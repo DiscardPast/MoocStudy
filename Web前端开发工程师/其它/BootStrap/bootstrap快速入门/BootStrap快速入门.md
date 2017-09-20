@@ -124,7 +124,9 @@
                 background-color: #5cb85c;
             }
         }
-    </style>```
+</style>
+```
+
 		- 参数详解
 			- max-width:当前屏幕最大多少时使用下面样式
 			- min-width：当前屏幕最小多少时使用下面样式
