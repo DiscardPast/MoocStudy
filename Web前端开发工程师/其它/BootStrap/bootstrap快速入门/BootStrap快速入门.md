@@ -97,18 +97,23 @@
 			- 手持设备没有进行缩放的时候，1pc终端像素=1手机端物理单位
 			- 当页面方法的时候，1pc终端像素会覆盖好几个手机端物理单位
 			- 当页面缩小的时候，1手机端物理单位又会覆盖好几个pc终端像素
-		- `示例代码:<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1,minimum-scale=1,user-scalable=no">
-			- 参数详解
-				- width:窗口初始化宽度
-				- heigth:窗口初始化高度
-				- user-scalable:是否允许用户放大缩小
-				- initial-scale:初始的缩放比例
-				- maximum-scale：最大的缩放比例
-				- minimum-scale：最小的缩放比例`
-	2. 栅格化布局
-		- 代码
 
 ```
+示例代码:
+<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1,minimum-scale=1,user-scalable=no">
+参数详解:
+	- width:窗口初始化宽度
+	- heigth:窗口初始化高度
+	- user-scalable:是否允许用户放大缩小
+	- initial-scale:初始的缩放比例
+	- maximum-scale：最大的缩放比例
+	- minimum-scale：最小的缩放比例
+```
+
+	2. 栅格化布局
+
+```
+示例代码:
 <style>
         .test
         {
