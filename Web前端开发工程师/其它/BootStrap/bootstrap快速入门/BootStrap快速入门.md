@@ -142,6 +142,9 @@
 ```
 
 ```
+**bootstrap中的栅格布局**
+**会将屏幕纵向分为12份**
+
 bootstrap栅格化布局示例代码：
 .bootstrap-test
         {
