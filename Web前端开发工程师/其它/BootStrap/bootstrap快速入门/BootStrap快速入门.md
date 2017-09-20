@@ -108,7 +108,6 @@
 				- minimum-scale：最小的缩放比例
 	2. 栅格化布局
 		- 代码
-			-
 ```
 <style>
         .test
@@ -127,14 +126,13 @@
         }
 </style>
 ```
-
 		- 参数详解
 			- max-width:当前屏幕最大多少时使用下面样式
 			- min-width：当前屏幕最小多少时使用下面样式
-		- bootstrap中的栅格布局
+			- bootstrap中的栅格布局
 			- 会将屏幕纵向分为12份
 			- 代码
-				- ```
+```
 .bootstrap-test
         {
             height: 200px;
