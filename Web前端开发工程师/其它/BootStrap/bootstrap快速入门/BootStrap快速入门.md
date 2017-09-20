@@ -92,7 +92,7 @@
 		- 状态设置
 		- 三角符号
 
-#### 响应式前端开发
+### 响应式前端开发
 ##### 1. viewport
 	- pc终端像素为我们设计的页面上显示的大小
 		- 手持设备没有进行缩放的时候，1pc终端像素=1手机端物理单位
@@ -180,29 +180,29 @@ bootstrap栅格化布局示例代码：
 				- 无需重复设计
 				- 方便引用
 
-* Bootstrap组件
-	1. 特殊属性
+### Bootstrap组件
+#### 1. 特殊属性
 		- role:HTML5的标签属性,用于标识普通标签使之语义化,方便浏览器对其具体的功能进行识别，给忙问浏览器工具进行识别
 		- aria-label:用于输入框,当焦点落于输入框时,阅读软件就会读出输入框的内容
 		- tablndex:设置键盘中的tab在控件中的移动顺序，方便有障碍人士上网浏览网页
 		- data-:HTML5中新增的自定义data属性，可在其后添加自定义内容，在页面上不显示，不会影响到页面的正常显示，可以通过自定义的属性实现，一些数据传递，数据交互的效果等
-	2. 字体图标
-		- 带有字体图标的按钮代码
+#### 2. 字体图标
 
 ```
+示例代码:
 <button class="btn btn-danger">
 <span class="glyphicon glyphicon-star"></span>
     这是一个带有star的按钮
 </button>
 ```
 
-	3. 下拉菜单
+#### 3. 下拉菜单
 		- .dropdown控制组件为下拉
 		- .dropdown-menu-right代替.pull-rirht右对齐
 		- divider分割线
-		- 代码
 
 ```
+示例代码:
 <div class="dropdown">
     <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
         这是按钮
@@ -218,12 +218,12 @@ bootstrap栅格化布局示例代码：
 </div>
 ```
 
-	4. 控件组
+#### 4. 控件组
 		- .input-group表示控件组
 		- .input-group-addon可放置额外的内容及图标
-		- 代码
 
 ```
+示例代码:
 <div class="input-group">
     <span class="input-group-addon">
         账户
@@ -232,7 +232,7 @@ bootstrap栅格化布局示例代码：
 </div>
 ```
 
-	5. 导航
+##### 5. 导航
 		- 以一个带有class.nav的无序列表开始
 		- .nav-tabs代表可切换的导航
 		- .nav-pills代表胶囊导航
@@ -269,13 +269,13 @@ bootstrap栅格化布局示例代码：
 </div>
 ```
 
-	6. 分页
+#### 6. 分页
 		- .pagination在父元素中添加表示分页
 		- .pager放置在翻页区域
 		- .previous把链接向左对齐,。next把链接向右对齐。
-		- 代码
 
 ```
+示例代码:
 <div>
 <ul class="pagination ">
     <li><a href="#">Prev</a></li>
@@ -289,13 +289,13 @@ bootstrap栅格化布局示例代码：
 </div>`
 ``
 
-	7. 进度条
+#### 7. 进度条
 		- .progress表示进度条
 		- 通过状态类改变进度条的颜色
 		- .progress-bar-striped使得进度条颜色渐变、
-		- 代码
 
 ```
+示例代码:
 <div class="progress">
     <div class="progress-bar progress-bar-success progress-bar-striped" style="width:60%">
         60%
@@ -303,13 +303,13 @@ bootstrap栅格化布局示例代码：
 </div>
 ```
 
-	8. 列表
+#### 8. 列表
 		- .list-group代表列表组
 		- .badge代表状态数
 		- .active代表选中状态
-		- 代码
 
 ```
+示例代码:
 <div>
     <ul class="list-group">
         <li class="list-group-item active">
@@ -328,13 +328,13 @@ bootstrap栅格化布局示例代码：
 </div>
 ```
 
-	9. 面板
+#### 9. 面板
 		- .panel代表面板
 		- .panel-body代表面板内容
 		- .panel-footer代表面板的注脚
-		- 代码
 
 ```
+示例代码:
 <div class="panel panel-primary">
     <div class="panel-heading">
         弹出层
@@ -353,9 +353,9 @@ bootstrap栅格化布局示例代码：
 	2. Bootstrap.js基于JQuery
 	3. 通过data属性控制页面交互
 	4. $(document).off('.data-api')解除属性绑定
-	5. 代码
 
 ```
+示例代码:
 <div class="panel panel-primary">
     <div class="panel-heading">
         弹出层
@@ -397,5 +397,6 @@ bootstrap栅格化布局示例代码：
             </div>
         </div>
     </div>
-</div>```
+</div>
+```
 
