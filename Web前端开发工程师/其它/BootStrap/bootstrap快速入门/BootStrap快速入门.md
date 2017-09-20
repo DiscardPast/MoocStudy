@@ -91,16 +91,18 @@
 		- 背景颜色
 		- 状态设置
 		- 三角符号
-* 响应式前端开发
-	1. viewport
-		- pc终端像素为我们设计的页面上显示的大小
-			- 手持设备没有进行缩放的时候，1pc终端像素=1手机端物理单位
-			- 当页面方法的时候，1pc终端像素会覆盖好几个手机端物理单位
-			- 当页面缩小的时候，1手机端物理单位又会覆盖好几个pc终端像素
+
+#### 响应式前端开发
+##### 1. viewport
+	- pc终端像素为我们设计的页面上显示的大小
+		- 手持设备没有进行缩放的时候，1pc终端像素=1手机端物理单位
+		- 当页面方法的时候，1pc终端像素会覆盖好几个手机端物理单位
+		- 当页面缩小的时候，1手机端物理单位又会覆盖好几个pc终端像素
 
 ```
 示例代码:
 <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1,minimum-scale=1,user-scalable=no">
+
 参数详解:
 	- width:窗口初始化宽度
 	- heigth:窗口初始化高度
@@ -110,7 +112,7 @@
 	- minimum-scale：最小的缩放比例
 ```
 
-	2. 栅格化布局
+##### 2. 栅格化布局
 
 ```
 示例代码:
@@ -130,33 +132,35 @@
             }
         }
 </style>
-```
 
-		- 参数详解
-			- max-width:当前屏幕最大多少时使用下面样式
-			- min-width：当前屏幕最小多少时使用下面样式
-			- bootstrap中的栅格布局
-			- 会将屏幕纵向分为12份
-			- 代码
+参数详解:
+	- max-width:当前屏幕最大多少时使用下面样式
+	- min-width：当前屏幕最小多少时使用下面样式
+	- bootstrap中的栅格布局
+	- 会将屏幕纵向分为12份
 
 ```
+
+```
+bootstrap栅格化布局示例代码：
 .bootstrap-test
         {
             height: 200px;
             background-color: #985f0d;
         }
         <div class="bootstrap-test col-lg-3 col-md-4 col-sm-6 col-xs-12 col-lg-offset-3 col-md-offset-4"></div>
+
+参数详解:
+	- bootstrap-test:原有样式
+	- col-lg-3:超大屏时占3/12份
+	- col-md-4:中屏时占4/12份
+	- col-sm-6:小屏时占6/12份
+	- col-xs-12:占整个屏幕
+	- col-lg-offset-3:大屏时向左偏移3/12份
+	- col-md-offset-4：中屏时向左偏移4/12份
 ```
 
-            - 参数详解
-            	- bootstrap-test:原有样式
-            	- col-lg-3:超大屏时占3/12份
-            	- col-md-4:中屏时占4/12份
-            	- col-sm-6:小屏时占6/12份
-            	- col-xs-12:占整个屏幕
-            	- col-lg-offset-3:大屏时向左偏移3/12份
-            	- col-md-offset-4：中屏时向左偏移4/12份
-	3. 单位
+##### 3. 单位
 		- px
 			- px是相对于屏幕分辨率的长度单位
 			- px的大小无法更随屏幕放大缩小
@@ -169,7 +173,7 @@
 		- rem
         	- rem与em类似，相对于HTML根节点的字体单位
         	- html{font-size:62.5%;}(10px)
-	4. 图标
+##### 4. 图标
 		- 字体图标
 			- 特点
 				- 体积小便于加载
