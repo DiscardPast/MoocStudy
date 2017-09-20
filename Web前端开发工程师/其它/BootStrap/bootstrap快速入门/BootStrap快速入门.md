@@ -139,7 +139,7 @@
 
 ```
 
-**bootstrap中的栅格布局**
+##### bootstrap中的栅格布局
 **会将屏幕纵向分为12份**
 ```
 bootstrap栅格化布局示例代码：
@@ -286,13 +286,13 @@ bootstrap栅格化布局示例代码：
     <li><a href="#">5</a></li>
     <li><a href="#">Next</a></li>
 </ul>
-</div>`
-``
+</div>
+```
 
 #### 7. 进度条
 		- .progress表示进度条
 		- 通过状态类改变进度条的颜色
-		- .progress-bar-striped使得进度条颜色渐变、
+		- .progress-bar-striped使得进度条颜色渐变
 
 ```
 示例代码:
